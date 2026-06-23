@@ -1,0 +1,25 @@
+{
+  "name": "sustainbot",
+  "version": "1.0.0",
+  "description": "a chat-bot for a sustainable life",
+  "license": "ISC",
+  "author": "Nikhil singh",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "@ai-sdk/groq": "^3.0.42",
+    "ai": "^6.0.208",
+    "axios": "^1.18.0",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "groq": "^6.1.0",
+    "groq-sdk": "^1.2.1",
+    "twilio": "^6.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
