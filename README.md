@@ -109,7 +109,7 @@ src/
 Clone the repository:
 
 ```bash
-git clone <repository-url>
+git clone <https://github.com/nikhils-hubs/SustainAI---Smart-Choices.-Greener-Future.>
 cd SustainAI
 ```
 
@@ -150,4 +150,4 @@ npm run dev
 
 **Nikhil Singh**
 
-Built as part of an AI internship project to demonstrate how conversational AI can make sustainable living more accessible through WhatsApp.
+Built as part of an AI internship project to demonstrate how conversational AI can make sustainable living by 1M1B AI for Sustainability Virtual Internship
