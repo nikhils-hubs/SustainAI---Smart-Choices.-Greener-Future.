@@ -7,16 +7,16 @@ const groq = new Groq({
 
 async function generateResponse(systemprompt, history = []) {
     try {
-        const completion = await groq.chat.completions.create({
-            model: 'llama-3.3-70b-versatile',
+        const chat_completion = await groq.chat.completions.create({
             messages: [{
                 role: 'system',
-                content: systemPrompt,
+                content: systemprompt,
             },
             ...history,
-            ]
+            ],
+            model: 'openai/gpt-oss-120b',
         });
-        return completion.choices[0]?.message?.content;
+        return chat_completion.choices[0]?.message?.content;
     } catch (error) {
         console.error('groq err: ', error);
         return 'Sorry I am having trouble generating a response rn'
